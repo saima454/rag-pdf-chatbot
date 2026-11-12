@@ -1,0 +1,13 @@
+[project]
+name = "pdf-rag-chatbot"
+version = "0.1.0"
+description = "PDF RAG chatbot: ingestion (pypdf + OCR + LLM cleaning + Google embeddings + Qdrant)"
+requires-python = ">=3.10"
+dependencies = [
+    "pypdf",
+    "pytesseract",
+    "Pillow",
+    "google-genai",
+    "python-dotenv",
+    "qdrant-client",
+]

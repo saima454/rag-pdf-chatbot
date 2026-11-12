@@ -1,0 +1,6 @@
+.venv/
+.env
+qdrant_db/
+output/
+__pycache__/
+*.pyc
